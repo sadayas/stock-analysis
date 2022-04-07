@@ -27,7 +27,7 @@ For i = rowStart to rowEnd
 Next i
 ````
 
-Instead we were able to reuse a different code from stackoverflow, which processed through all the rows instead.
+Instead we were able to reuse a different code from stackoverflow, which processed through all data within the rows instead.
 
 ```
 RowCount = Cells(Rows.Count, "A").End(xlUp).Row
@@ -35,3 +35,9 @@ For i = 2 To RowCount
 ````
 
 ## Summary
+## Pros and Cons of Refactor
+There are many positives to refracting a code.   It can be updated to become a simpler and cleaner code.   The code then will be easier for others to understand, especially with less lines of code to read.  In a team setting, it will be easier to collaborate as the code will be more simplified. With a simpler code, it will lead to easier and quicker updates. Thus this will lead to saving time, and possibly money.  With a refactored code, we are able to be more efficient for our clients, and can process data quicker.  
+
+However, there are also disvantages to code refractoring. One would need to understand the original code before even attempting to refactor.  This would be more time consuming over time or if there is a time crunch.  Another issue may involve using precision, because with some codes processing large data information at once, certain parts of the data may be missed.  While it is a quicker approach, additional lines of code would be needed again to find precise data.
+
+##
